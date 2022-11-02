@@ -8,8 +8,9 @@ body {
 }
 
 .top-header {
-  height: auto;
+  height: 100vh;
   min-width: 100%;
+  background-color: rgb(180, 212, 252);
 }
 
 header {
@@ -128,6 +129,12 @@ span {
   justify-content: space-around;
 }
 
+.feat-title {
+  color: rgb(226, 55, 36);
+  text-align: center;
+  margin-top: 50px;
+}
+
 .boxes {
   padding: 20px 40px;
   display: flex;
@@ -199,4 +206,106 @@ span {
 .online-box:hover {
   box-shadow: 0px 5px 15px #bdbdbd;
   cursor: pointer;
+}
+
+.online-box h2 {
+  font-size: 18px;
+  color: rgb(46, 48, 48);
+  margin: 5px 0;
+}
+
+.online-box p {
+  color: rgb(99, 99, 99);
+  margin: 5px 0;
+}
+
+.course-btn {
+  font-size: 14px;
+  color: white;
+  padding: 8px 20px;
+  margin: 7px 0;
+}
+
+.bottom-feature {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+
+.left-date {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.left-date img,
+.right-stud img {
+  width: 20px;
+  height: 20px;
+}
+
+.right-stud {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 30px;
+}
+
+.left-date p,
+.right-stud p {
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+/* Testimonial Style*/
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 100px 100px;
+}
+
+.testi-title {
+  color: rgb(226, 55, 36);
+  padding-bottom: 40px;
+}
+
+.testimonial-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 200px;
+  margin-bottom: 30px;
+}
+
+.testimonial-box img {
+  margin-right: 30px;
+}
+
+.testimonial-box p {
+  font-weight: 500;
+  color: rgb(99, 99, 99);
+}
+
+/* Footer Style */
+
+footer {
+  height: 55vh;
+  background-color: rgb(90, 88, 88);
+  padding: 0 100px 100px 0;
+}
+
+.footer-box {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-between;
+  color: rgb(231, 213, 182);
+}
+
+.end {
+  text-align: center;
 }
