@@ -1,28 +1,31 @@
-body {
-  background: linear-gradient(to right, #78a7ba 0%, #385d6c 50%, #78a7ba 99%);
+Body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 100vh;
+  min-width: 100%;
+  /*background-color: rgb(180, 212, 252);*/
+  background-image: url(/images/assassin-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .signup-form {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  width: 650px;
+  width: 500px;
   margin: 30px auto;
-  background-color: rgb(234, 156, 148);
+  padding: 25px;
+  background-color: rgb(251, 238, 232);
   border-radius: 10px;
+  border-color: white;
 }
 
 /*---------------------------------------*/
 /* Form Header */
 /*---------------------------------------*/
-.form-header {
-  background-color: #eff0f1;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
-
 .form-header h1 {
   font-size: 30px;
   text-align: center;
-  color: #666;
+  color: black;
   padding: 20px 0;
   border-bottom: 1px solid #cccccc;
 }
@@ -54,10 +57,11 @@ body {
   padding-right: 10px;
   color: #333333;
   text-align: left;
-  border: 1px solid #d6d6d6;
+  border: 2px solid #d6d6d6;
   border-radius: 4px;
   background: white;
   outline: none;
+  border-color: rgb(234, 156, 148);
 }
 
 .horizontal-group .left {
@@ -94,35 +98,28 @@ input[type="file"] {
 /* Form Footer */
 /*---------------------------------------*/
 .signup-form .form-footer {
-  background-color: #eff0f1;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
   padding: 10px 40px;
   text-align: right;
-  border-top: 1px solid #cccccc;
   clear: both;
 }
 
-.form-footer span {
-  float: left;
-  margin-top: 10px;
-  color: #999;
-  font-style: italic;
-  font-weight: thin;
+.form-footer {
+  border-top: 1px solid #cccccc;
 }
 
 .btn {
   display: inline-block;
   padding: 10px 20px;
-  background-color: rgb(46, 48, 48);
+  background-color: rgb(219, 102, 89);
   font-size: 17px;
   border: none;
   border-radius: 5px;
-  color: rgb(234, 156, 148);
+  color: black;
   cursor: pointer;
+  font-weight: 550;
 }
 
 .btn:hover {
-  background-color: rgb(76, 77, 77);
+  background-color: rgb(226, 55, 36);
   color: white;
 }
