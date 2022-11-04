@@ -125,6 +125,9 @@ nav ul li a:hover {
 
 .left-box p {
   margin-bottom: 40px;
+  font-size: 40px;
+  font-weight: 550px;
+  color: rgb(131, 131, 131);
 }
 
 span {
@@ -302,6 +305,10 @@ span {
 .testimonial-box p {
   font-weight: 500;
   color: rgb(99, 99, 99);
+}
+
+.testi-name {
+  margin-left: -200px;
 }
 
 /* Footer Style */
